@@ -1,6 +1,12 @@
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  overflow: hidden;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +42,134 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4.5rem;
+  background-color: white;
+  -webkit-box-shadow: 2px 0px 10px 2px rgba(119, 119, 119, 0.92);
+  -moz-box-shadow: 2px 0px 10px 2px rgba(119, 119, 119, 0.92);
+  box-shadow: 2px 0px 4px 2px rgba(229, 229, 229, 0.92);
+}
+
+.app-body{
+  margin-top: 4.5rem;
+  height: calc(100vh - 4.5rem);
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.app-video-container{
+  height: fit-content;
+  background-color: white;
+  padding: 1rem;
+}
+
+.more-content-container{
+  padding: 1rem;
+
+}
+
+.video-details{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+.modal-verify{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(40, 44, 52, 0.68);
+  backdrop-filter: blur(10px);
+}
+
+.modal-show{
+  visibility: visible;
+}
+
+.modal-hide{
+  visibility: hidden;
+}
+
+.modal-container{
+  padding:2em 1.2rem;
+  margin: 3em auto;
+  height: fit-content;
+  width: 400px;
+  background-color: white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+
+.modal-input{
+  margin: 1rem;
+  width: 70%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #282c34;
+  padding:0 8px;
+}
+
+.modal-input:active{
+  border: 1px solid #61dafb;
+}
+
+.modal-input:hover{
+  background-color: #e9e9e9;
+}
+
+
+.btn{
+  height: 40px;
+  width:73%;
+  margin: 1rem;
+  padding: 4px;
+}
+
+
+.btn-verify{
+  background-color: #00f800;
+  color: #000;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.btn-verify:hover{
+  background-color: #00e200;
+}
+
+
+.btn:disabled{
+  background-color: #f7f7f7;
+  border: none;
+  color: #777777;
+}
+
+
+.btn-subscribe{
+  background-color: white;
+  color: #00f800;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #00f800 ;
+}
+
+
