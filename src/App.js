@@ -7,7 +7,7 @@ import ReactPlayer from "react-player"
 
 function App() {
 
-    const [verified, setVerified] = useState(true);
+    const [verified, setVerified] = useState(false);
     const [phone, setPhone] = useState("");
     const [pin,setPin] = useState("");
     const [loading, setLoading] = useState(false);
