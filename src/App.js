@@ -30,7 +30,7 @@ function App() {
                     />
 
                     <div className={"video-details"}>
-                        <h2>Test Scating</h2>
+                        <h2>Test Skating</h2>
                         <p>This is a small description about the video</p>
                     </div>
                 </div>
