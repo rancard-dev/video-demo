@@ -58,7 +58,7 @@ function App() {
                         <input type="phone" placeholder={"Phone number"} name={"msisdn"} className={"modal-input"}/>
 
                         :
-                        <input type="number" placeholder={"Pin"} name={"pin"} className={"modal-input"}/>
+                        <input type="number" placeholder={"Enter Pin to verify"} name={"pin"} className={"modal-input"}/>
 
 
                 }
@@ -70,7 +70,7 @@ function App() {
                             setLoading(true);
                             setTimeout(()=>{
                                 setLoading(false);
-                                setVerified(true)
+                                setModalPage("verify")
                             }, 2000)
                         }} disabled={loading} className={"btn btn-subscribe"}>Subscribe</button>
                         :
