@@ -8,8 +8,8 @@ import ReactPlayer from "react-player"
 function App() {
 
     const [verified, setVerified] = useState(false);
-    const [phone, setPhone] = useState("");
-    const [pin,setPin] = useState("");
+    // const [phone, setPhone] = useState("");
+    // const [pin,setPin] = useState("");
     const [loading, setLoading] = useState(false);
   return (
     <div className="App">
